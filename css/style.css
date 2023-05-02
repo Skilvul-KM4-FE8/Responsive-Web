@@ -51,8 +51,16 @@ p {
     line-height: 150%;
 }
 
+#col-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .card {
-    margin: 8px;
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .card-body {
