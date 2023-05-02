@@ -6,3 +6,13 @@ window.onscroll = function () {
     navbar.classList.remove("scroll-on");
   }
 };
+
+
+const navbarContain = document.querySelector('#content-navbar');
+
+// export default navbarContain;
+export function navbarContent() {
+  return navbarContain;
+}
+
+console.log(navbarContent())
