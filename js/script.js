@@ -1,3 +1,14 @@
+// Navbar JS
+let navbar = document.getElementById("navbar");
+window.onscroll = function () {
+  if (document.documentElement.scrollTop > 20) {
+    navbar.classList.add("scroll-on");
+  } else {
+    navbar.classList.remove("scroll-on");
+  }
+};
+
+// Data Artikel
 const container = document.getElementById('col-card');
 fetch("https://6450d733e1f6f1bb22a05272.mockapi.io/medical-article")
 .then((response) => {
