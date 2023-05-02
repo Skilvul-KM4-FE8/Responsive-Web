@@ -1,7 +1,6 @@
 // import from module
 import { getUrlVars } from "./module/geturl.js";
 import { cardDoctor } from "./module/carddoctor.js";
-import { doctorTitle } from "./module/doctortitle.js";
 
 // get data from mock API
 const doctors = fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?category=${getUrlVars().category}`)

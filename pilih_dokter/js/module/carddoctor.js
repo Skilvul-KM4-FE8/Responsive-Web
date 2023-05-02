@@ -9,7 +9,9 @@ export function cardDoctor(doctor) {
                           </div>
                           <div class="col-md-8">
                               <h4 class="text-carevul ms-0 mt-2"><b> dr. ${doctor.name} ${doctorTitle(getUrlVars().category)}</b></h4>
-                              <p class="text-secondary">${doctor.specialist} <br> ${doctor.hospital}</p>
+                              <p class="text-light-gray mt-3">${doctor.specialist} 
+                                <br> ${doctor.hospital} 
+                              </p>
                               <h5 class="mb-3"><span class="text-carevul">${doctor.totalPatient} Pasien</span> telah buat janji dengan dokter ini</h5>
                           </div>
                           <div class="col-md d-flex justify-content-center align-items-center d-block">
