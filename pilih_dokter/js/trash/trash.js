@@ -1,3 +1,4 @@
+import { getUrlVars } from "../module/geturl.js"
 // get data from mock API
 const doctors = fetch("https://64506b72a3221969114a2d25.mockapi.io/doctors?category=")
 doctors
