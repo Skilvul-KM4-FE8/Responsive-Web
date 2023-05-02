@@ -63,6 +63,11 @@ p {
     padding: 10px;
 }
 
+.card img {
+    max-width: 400px;
+    height: 250px;
+}
+
 .card-body {
     background-color: #f2f5f8;
     padding: 20px;
