@@ -1,5 +1,5 @@
 export function navbarHTML() {
-  return `<!-- Header -->
+return `<!-- Header -->
     <header id="content-navbar">
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top py-4">
             <div class="container">
@@ -34,7 +34,7 @@ export function navbarHTML() {
                         <a href="#" class="main-button-register">Register</a>
                         <a href="#" class="main-button">Login</a>
                     </div>
-  
+
                 </div>
             </div>
         </nav>

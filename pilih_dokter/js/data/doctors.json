@@ -5,7 +5,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/914.jpg",
       "category": "umum",
       "hospital": "RS. Umum Isekai, Isekai, Indonesia",
-      "totalPatient": "totalPatient 1",
+      "totalPatient": 1,
       "specialist": "specialist 1",
       "id": "1"
     },
@@ -15,7 +15,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
       "category": "umum",
       "hospital": "RS. Umum Isekai, Isekai, Indonesia",
-      "totalPatient": "totalPatient 2",
+      "totalPatient": 2,
       "specialist": "specialist 2",
       "id": "2"
     },
@@ -25,7 +25,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/269.jpg",
       "category": "umum",
       "hospital": "RS. Umum Daerah Medan, Indonesia",
-      "totalPatient": "totalPatient 3",
+      "totalPatient": 3,
       "specialist": "specialist 3",
       "id": "3"
     },
@@ -35,7 +35,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/26.jpg",
       "category": "umum",
       "hospital": "RS. Umum Daerah Medan, Indonesia",
-      "totalPatient": "totalPatient 4",
+      "totalPatient": 4,
       "specialist": "specialist 4",
       "id": "4"
     },
@@ -45,7 +45,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/902.jpg",
       "category": "umum",
       "hospital": "RS. Umum Daerah Medan, Indonesia",
-      "totalPatient": "totalPatient 5",
+      "totalPatient": 5,
       "specialist": "specialist 5",
       "id": "5"
     },
@@ -55,7 +55,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/456.jpg",
       "category": "umum",
       "hospital": "RS. Umum Anime, Jawa Selatan, Indonesia",
-      "totalPatient": "totalPatient 6",
+      "totalPatient": 6,
       "specialist": "specialist 6",
       "id": "6"
     },
@@ -65,7 +65,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/679.jpg",
       "category": "umum",
       "hospital": "RS. Umum Anime, Jawa Selatan, Indonesia",
-      "totalPatient": "totalPatient 7",
+      "totalPatient": 7,
       "specialist": "specialist 7",
       "id": "7"
     },
@@ -75,7 +75,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/848.jpg",
       "category": "umum",
       "hospital": "RS. Umum Anime, Jawa Selatan, Indonesia",
-      "totalPatient": "totalPatient 8",
+      "totalPatient": 8,
       "specialist": "specialist 8",
       "id": "8"
     },
@@ -85,7 +85,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/665.jpg",
       "category": "gigi",
       "hospital": "RS. Kopling, Kelurahan Kampas, Indonesia",
-      "totalPatient": "totalPatient 9",
+      "totalPatient": 9,
       "specialist": "specialist 9",
       "id": "9"
     },
@@ -95,7 +95,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1019.jpg",
       "category": "gigi",
       "hospital": "RS. Kipas, Kota Angin, Indonesia",
-      "totalPatient": "totalPatient 10",
+      "totalPatient": 10,
       "specialist": "specialist 10",
       "id": "10"
     },
@@ -105,7 +105,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/969.jpg",
       "category": "category 11",
       "hospital": "RS. Kipas, Kota Angin, Indonesia",
-      "totalPatient": "totalPatient 11",
+      "totalPatient": 11,
       "specialist": "specialist 11",
       "id": "11"
     },
@@ -115,7 +115,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg",
       "category": "tht",
       "hospital": "RS. Kipas, Kota Angin, Indonesia",
-      "totalPatient": "totalPatient 12",
+      "totalPatient": 12,
       "specialist": "specialist 12",
       "id": "12"
     },
@@ -125,7 +125,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/325.jpg",
       "category": "tht",
       "hospital": "RS. Sehatyuk, Kelurahan Konoha, Indonesia",
-      "totalPatient": "totalPatient 13",
+      "totalPatient": 13,
       "specialist": "specialist 13",
       "id": "13"
     },
@@ -135,7 +135,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1197.jpg",
       "category": "saraf",
       "hospital": "RS. Sehatyuk, Kelurahan Konoha, Indonesia",
-      "totalPatient": "totalPatient 14",
+      "totalPatient": 14,
       "specialist": "specialist 14",
       "id": "14"
     },
@@ -145,7 +145,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/270.jpg",
       "category": "saraf",
       "hospital": "RS. Konoha, kelurahan Naruto, Indonesia",
-      "totalPatient": "totalPatient 15",
+      "totalPatient": 15,
       "specialist": "specialist 15",
       "id": "15"
     },
@@ -155,7 +155,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1085.jpg",
       "category": "psikiater",
       "hospital": "RS. Konoha, kelurahan Naruto, Indonesia",
-      "totalPatient": "totalPatient 16",
+      "totalPatient": 16,
       "specialist": "specialist 16",
       "id": "16"
     },
@@ -165,7 +165,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/567.jpg",
       "category": "psikiater",
       "hospital": "RS. Konoha, kelurahan Naruto, Indonesia",
-      "totalPatient": "totalPatient 17",
+      "totalPatient": 17,
       "specialist": "specialist 17",
       "id": "17"
     },
@@ -175,7 +175,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
       "category": "tulang",
       "hospital": "RS. Konoha, kelurahan Naruto, Indonesia",
-      "totalPatient": "totalPatient 18",
+      "totalPatient": 18,
       "specialist": "specialist 18",
       "id": "18"
     },
@@ -185,7 +185,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/615.jpg",
       "category": "tulang",
       "hospital": "RS. Konoha, kelurahan Naruto, Indonesia",
-      "totalPatient": "totalPatient 19",
+      "totalPatient": 19,
       "specialist": "specialist 19",
       "id": "19"
     },
@@ -195,7 +195,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/111.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 20",
+      "totalPatient": 20,
       "specialist": "specialist 20",
       "id": "20"
     },
@@ -205,7 +205,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/906.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 21",
+      "totalPatient": 21,
       "specialist": "specialist 21",
       "id": "21"
     },
@@ -215,7 +215,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/281.jpg",
       "category": "kulit_kelamin",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 22",
+      "totalPatient": 22,
       "specialist": "specialist 22",
       "id": "22"
     },
@@ -225,7 +225,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/344.jpg",
       "category": "kulit_kelamin",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 23",
+      "totalPatient": 23,
       "specialist": "specialist 23",
       "id": "23"
     },
@@ -235,7 +235,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/121.jpg",
       "category": "gigi",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 24",
+      "totalPatient": 24,
       "specialist": "specialist 24",
       "id": "24"
     },
@@ -245,7 +245,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/627.jpg",
       "category": "gigi",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 25",
+      "totalPatient": 25,
       "specialist": "specialist 25",
       "id": "25"
     },
@@ -255,7 +255,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/77.jpg",
       "category": "kandungan",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 26",
+      "totalPatient": 26,
       "specialist": "specialist 26",
       "id": "26"
     },
@@ -265,7 +265,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
       "category": "kandungan",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 27",
+      "totalPatient": 27,
       "specialist": "specialist 27",
       "id": "27"
     },
@@ -275,7 +275,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/194.jpg",
       "category": "mata",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 28",
+      "totalPatient": 28,
       "specialist": "specialist 28",
       "id": "28"
     },
@@ -285,7 +285,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1074.jpg",
       "category": "mata",
       "hospital": "RS. Khayalan, Desa Mimpi, Indonesia",
-      "totalPatient": "totalPatient 29",
+      "totalPatient": 29,
       "specialist": "specialist 29",
       "id": "29"
     },
@@ -295,7 +295,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/578.jpg",
       "category": "saraf",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 30",
+      "totalPatient": 30,
       "specialist": "specialist 30",
       "id": "30"
     },
@@ -305,7 +305,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
       "category": "saraf",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 31",
+      "totalPatient": 31,
       "specialist": "specialist 31",
       "id": "31"
     },
@@ -315,7 +315,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/509.jpg",
       "category": "psikiater",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 32",
+      "totalPatient": 32,
       "specialist": "specialist 32",
       "id": "32"
     },
@@ -325,7 +325,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1239.jpg",
       "category": "psikiater",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 33",
+      "totalPatient": 33,
       "specialist": "specialist 33",
       "id": "33"
     },
@@ -335,7 +335,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/373.jpg",
       "category": "saraf",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 34",
+      "totalPatient": 34,
       "specialist": "specialist 34",
       "id": "34"
     },
@@ -345,7 +345,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
       "category": "saraf",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 35",
+      "totalPatient": 35,
       "specialist": "specialist 35",
       "id": "35"
     },
@@ -355,7 +355,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/30.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 36",
+      "totalPatient": 36,
       "specialist": "specialist 36",
       "id": "36"
     },
@@ -365,7 +365,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/166.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 37",
+      "totalPatient": 37,
       "specialist": "specialist 37",
       "id": "37"
     },
@@ -375,7 +375,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/420.jpg",
       "category": "mata",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 38",
+      "totalPatient": 38,
       "specialist": "specialist 38",
       "id": "38"
     },
@@ -385,7 +385,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/519.jpg",
       "category": "mata",
       "hospital": "RS. Keranjang, Kecamatan Dapur, Indonesia",
-      "totalPatient": "totalPatient 39",
+      "totalPatient": 39,
       "specialist": "specialist 39",
       "id": "39"
     },
@@ -395,7 +395,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1211.jpg",
       "category": "tulang",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 40",
+      "totalPatient": 40,
       "specialist": "specialist 40",
       "id": "40"
     },
@@ -405,7 +405,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1230.jpg",
       "category": "tulang",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 41",
+      "totalPatient": 41,
       "specialist": "specialist 41",
       "id": "41"
     },
@@ -415,7 +415,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/587.jpg",
       "category": "anak",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 42",
+      "totalPatient": 42,
       "specialist": "specialist 42",
       "id": "42"
     },
@@ -425,7 +425,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/490.jpg",
       "category": "anak",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 43",
+      "totalPatient": 43,
       "specialist": "specialist 43",
       "id": "43"
     },
@@ -435,7 +435,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1138.jpg",
       "category": "kulit_kelamin",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 44",
+      "totalPatient": 44,
       "specialist": "specialist 44",
       "id": "44"
     },
@@ -445,7 +445,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/88.jpg",
       "category": "kulit_kelamin",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 45",
+      "totalPatient": 45,
       "specialist": "specialist 45",
       "id": "45"
     },
@@ -455,7 +455,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1116.jpg",
       "category": "gigi",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 46",
+      "totalPatient": 46,
       "specialist": "specialist 46",
       "id": "46"
     },
@@ -465,7 +465,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/458.jpg",
       "category": "gigi",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 47",
+      "totalPatient": 47,
       "specialist": "specialist 47",
       "id": "47"
     },
@@ -475,7 +475,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/313.jpg",
       "category": "kandungan",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 48",
+      "totalPatient": 48,
       "specialist": "specialist 48",
       "id": "48"
     },
@@ -485,7 +485,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/29.jpg",
       "category": "kandungan",
       "hospital": "RS. Carevul, Jakarta, Indonesia",
-      "totalPatient": "totalPatient 49",
+      "totalPatient": 49,
       "specialist": "specialist 49",
       "id": "49"
     },
@@ -495,7 +495,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
       "category": "tht",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 50",
+      "totalPatient": 50,
       "specialist": "specialist 50",
       "id": "50"
     },
@@ -505,7 +505,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
       "category": "tht",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 51",
+      "totalPatient": 51,
       "specialist": "specialist 51",
       "id": "51"
     },
@@ -515,7 +515,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/978.jpg",
       "category": "psikiater",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 52",
+      "totalPatient": 52,
       "specialist": "specialist 52",
       "id": "52"
     },
@@ -525,7 +525,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1024.jpg",
       "category": "psikiater",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 53",
+      "totalPatient": 53,
       "specialist": "specialist 53",
       "id": "53"
     },
@@ -535,7 +535,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
       "category": "saraf",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 54",
+      "totalPatient": 54,
       "specialist": "specialist 54",
       "id": "54"
     },
@@ -545,7 +545,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/721.jpg",
       "category": "saraf",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 55",
+      "totalPatient": 55,
       "specialist": "specialist 55",
       "id": "55"
     },
@@ -555,7 +555,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/109.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 56",
+      "totalPatient": 56,
       "specialist": "specialist 56",
       "id": "56"
     },
@@ -565,7 +565,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/156.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 57",
+      "totalPatient": 57,
       "specialist": "specialist 57",
       "id": "57"
     },
@@ -575,7 +575,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/463.jpg",
       "category": "mata",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 58",
+      "totalPatient": 58,
       "specialist": "specialist 58",
       "id": "58"
     },
@@ -585,7 +585,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/322.jpg",
       "category": "mata",
       "hospital": "RS. Cahaya, Kecamatan Senter, Indonesia",
-      "totalPatient": "totalPatient 59",
+      "totalPatient": 59,
       "specialist": "specialist 59",
       "id": "59"
     },
@@ -595,7 +595,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/745.jpg",
       "category": "tulang",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 60",
+      "totalPatient": 60,
       "specialist": "specialist 60",
       "id": "60"
     },
@@ -605,7 +605,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/974.jpg",
       "category": "tulang",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 61",
+      "totalPatient": 61,
       "specialist": "specialist 61",
       "id": "61"
     },
@@ -615,7 +615,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/211.jpg",
       "category": "anak",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 62",
+      "totalPatient": 62,
       "specialist": "specialist 62",
       "id": "62"
     },
@@ -625,7 +625,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
       "category": "anak",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 63",
+      "totalPatient": 63,
       "specialist": "specialist 63",
       "id": "63"
     },
@@ -635,7 +635,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/543.jpg",
       "category": "kulit_kelamin",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 64",
+      "totalPatient": 64,
       "specialist": "specialist 64",
       "id": "64"
     },
@@ -645,7 +645,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/752.jpg",
       "category": "kulit_kelamin",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 65",
+      "totalPatient": 65,
       "specialist": "specialist 65",
       "id": "65"
     },
@@ -655,7 +655,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1198.jpg",
       "category": "gigi",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 66",
+      "totalPatient": 66,
       "specialist": "specialist 66",
       "id": "66"
     },
@@ -665,7 +665,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
       "category": "gigi",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 67",
+      "totalPatient": 67,
       "specialist": "specialist 67",
       "id": "67"
     },
@@ -675,7 +675,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/391.jpg",
       "category": "kandungan",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 68",
+      "totalPatient": 68,
       "specialist": "specialist 68",
       "id": "68"
     },
@@ -685,7 +685,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/392.jpg",
       "category": "kandungan",
       "hospital": "RS. Elite, Sumatera Utara, Indonesia",
-      "totalPatient": "totalPatient 69",
+      "totalPatient": 69,
       "specialist": "specialist 69",
       "id": "69"
     },
@@ -695,7 +695,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/346.jpg",
       "category": "tht",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 70",
+      "totalPatient": 70,
       "specialist": "specialist 70",
       "id": "70"
     },
@@ -705,7 +705,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
       "category": "tht",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 71",
+      "totalPatient": 71,
       "specialist": "specialist 71",
       "id": "71"
     },
@@ -715,7 +715,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/534.jpg",
       "category": "psikiater",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 72",
+      "totalPatient": 72,
       "specialist": "specialist 72",
       "id": "72"
     },
@@ -725,7 +725,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/460.jpg",
       "category": "psikiater",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 73",
+      "totalPatient": 73,
       "specialist": "specialist 73",
       "id": "73"
     },
@@ -735,7 +735,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg",
       "category": "saraf",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 74",
+      "totalPatient": 74,
       "specialist": "specialist 74",
       "id": "74"
     },
@@ -745,7 +745,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/622.jpg",
       "category": "saraf",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 75",
+      "totalPatient": 75,
       "specialist": "specialist 75",
       "id": "75"
     },
@@ -755,7 +755,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/726.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 76",
+      "totalPatient": 76,
       "specialist": "specialist 76",
       "id": "76"
     },
@@ -765,7 +765,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/291.jpg",
       "category": "penyakit_dalam",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 77",
+      "totalPatient": 77,
       "specialist": "specialist 77",
       "id": "77"
     },
@@ -775,7 +775,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/377.jpg",
       "category": "mata",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 78",
+      "totalPatient": 78,
       "specialist": "specialist 78",
       "id": "78"
     },
@@ -785,7 +785,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
       "category": "mata",
       "hospital": "RS. Banteng Merah, Kelurahan Rakyat, Indonesia",
-      "totalPatient": "totalPatient 79",
+      "totalPatient": 79,
       "specialist": "specialist 79",
       "id": "79"
     },
@@ -795,7 +795,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/86.jpg",
       "category": "umum",
       "hospital": "RS. Pua Kelurahan Banteng, Indonesia",
-      "totalPatient": "totalPatient 80",
+      "totalPatient": 80,
       "specialist": "specialist 80",
       "id": "80"
     },
@@ -805,7 +805,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/824.jpg",
       "category": "anak",
       "hospital": "RS. Pua Kelurahan Banteng, Indonesia",
-      "totalPatient": "totalPatient 81",
+      "totalPatient": 81,
       "specialist": "specialist 81",
       "id": "81"
     },
@@ -815,7 +815,7 @@
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
       "category": "gigi",
       "hospital": "RS. Pua Kelurahan Banteng, Indonesia",
-      "totalPatient": "totalPatient 82",
+      "totalPatient": 82,
       "specialist": "specialist 82",
       "id": "82"
     }
