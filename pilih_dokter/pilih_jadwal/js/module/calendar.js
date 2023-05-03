@@ -25,11 +25,26 @@ export function calendar() {
       liTag += `<li class="inactive">${lastDateofLastMonth - i + 1}</li>`;
     }
 
+
+    let j = ""
     for (let i = 1; i <= lastDateofMonth; i++) {
       // creating li of all days of current month
       // adding active class to li if the current day, month, and year matched
-      let isToday = i === date.getDate() && currMonth === new Date().getMonth() && currYear === new Date().getFullYear() ? "active" : "";
-      liTag += `<li class="${isToday}">${i}</li>`;
+      let available = "not-active"
+      
+
+      let isToday = i === date.getDate() && currMonth === new Date().getMonth() && currYear === new Date().getFullYear() ? "active" : false;
+
+      if (isToday == "active") {
+        j = i
+      }
+
+      if ( typeof(j) =="number" && i <= (j+3)){
+        available = "available"
+        console.log(available)
+      }
+
+      liTag += `<li class="${isToday} ${available}">${i}</li>`;
     }
 
     for (let i = lastDayofMonth; i < 6; i++) {

@@ -82,7 +82,7 @@ header .current-date{
   color: #aaa;
 }
 .days li.active{
-  color: #fff;
+  color: #fff !important;
 }
 .days li::before{
   position: absolute;
@@ -97,7 +97,20 @@ header .current-date{
 }
 .days li.active::before{
   background: #3655D5;
+  /* color: #fff !important; */
 }
 .days li:not(.active):hover::before{
   background: #f2f2f2;
+}
+
+.days li.not-active {
+  color: #555;
+}
+.days li.available {
+  /* border: 2px solid #3655D5 ; */
+  color: #3655D5;
+  font-weight: 600;
+}
+.days li.available::before {
+  border: 2px solid #3655D5 ;
 }
