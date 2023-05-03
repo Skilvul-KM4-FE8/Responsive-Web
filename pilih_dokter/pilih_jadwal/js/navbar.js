@@ -15,4 +15,5 @@ export function navbarContent() {
   return navbarContain;
 }
 
+
 console.log(navbarContent())
