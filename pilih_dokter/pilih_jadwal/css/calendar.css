@@ -74,7 +74,6 @@ header .current-date{
 }
 .calendar .days li{
   z-index: 1;
-  cursor: pointer;
   position: relative;
   margin-top: 30px;
 }
@@ -99,9 +98,9 @@ header .current-date{
   background: #3655D5;
   /* color: #fff !important; */
 }
-.days li:not(.active):hover::before{
+/* .days li:not(.active):hover::before{
   background: #f2f2f2;
-}
+} */
 
 .days li.not-active {
   color: #555;
@@ -109,6 +108,7 @@ header .current-date{
 .days li.available {
   /* border: 2px solid #3655D5 ; */
   color: #3655D5;
+  cursor: pointer;
   font-weight: 600;
 }
 .days li.available::before {
