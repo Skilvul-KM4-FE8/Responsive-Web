@@ -15,7 +15,7 @@ export function cardDoctor(doctor) {
                               <h5 class="mb-3"><span class="text-carevul">${doctor.totalPatient} Pasien</span> telah buat janji dengan dokter ini</h5>
                           </div>
                           <div class="col-md d-flex justify-content-center align-items-center d-block">
-                              <a href="${doctor.id}" class="btn color-carevul-gradient text-white mx-auto px-5 py-2">Buat Janji</a>
+                              <a href="./pilih_jadwal/?id=${doctor.id}" class="btn color-carevul-gradient text-white mx-auto px-5 py-2">Buat Janji</a>
                           </div>
                       </div>
                   </div>`;
