@@ -39,7 +39,82 @@ p {
     text-align: justify;
 }
 
+/* ===================== NAVBAR ====================== */
+.main-button {
+    background-color: #3655d5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 1px solid #3655d5;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .main-button:hover {
+    background-color: white;
+    color: #3655d5;
+  }
+  
+  .main-button-register {
+    background-color: 0e90E4;
+    color: #3655d5;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 1px solid #3655d5;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .main-button-register:hover {
+    background-color: #3655d5;
+    border: 1px solid #3655d5;
+    color: white;
+  }
+  
+  .wrapper-top {
+    padding-top: 100px;
+  }
+  
+  .wrapper-bottom {
+    padding-bottom: 100px;
+  }
+  
+  .quote i {
+    font-size: 30px;
+    color: #1e154f;
+  }
+  
+  .scroll-on {
+    background-color: white;
+    padding: 14px;
+    box-shadow: 0px 63px 75px -21px rgba(30, 21, 79, 0.05);
+  }
+  
+/* ===================== BANNER SECTION ====================== */
+/* header */
+  #navbar {
+    transition: 0.5s ease-in-out;
+  }
+  .navbar-nav li a {
+    font-size: 16px;
+    color: #1e154f !important;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #3655d5;
+  }
+  
+
 /* ========= Article  ============ */
+#container-content {
+    margin-top: 150px;
+}
+
 #breadcrumbs {
     color: #787878;
     margin-bottom: 25px;
@@ -101,3 +176,29 @@ p {
     box-shadow: inset 200px 0 0 0 #1678f2;;
     color: white;
 }
+
+  /* Resopnsive CSS */
+  
+  /* Tablates */
+  
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background: white;
+      padding: 16px;
+      margin-top: 18px;
+    }
+  }
+  
+  /* Mobiles */
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 28px;
+    }
+    .navbar-collapse {
+      background: white;
+      padding: 16px;
+    }
+  }
