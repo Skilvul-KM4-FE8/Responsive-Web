@@ -106,21 +106,7 @@ dates.forEach((date) => {
   const btnBook = document.querySelector("#book-btn");
   btnBook.addEventListener("click", (e) => {
     e.preventDefault();
-
-
-    // let userDataInLocalStorage = JSON.parse(localStorage.getItem(STORAGE_KEY))
-
-    // if (userDataInLocalStorage) {
-    //   const newData = [...userDataInLocalStorage, stringifiedValue];
-    //   localStorage.setItem(STORAGE_KEY, newData);
-    // } else {
-      // const newData = [stringifiedValue, userDataInLocalStorage];
       localStorage.setItem(STORAGE_KEY, JSON.stringify(value));
-    // }
-
-    // const newData = [...userDataInLocalStorage, stringifiedValue];
-    // localStorage.setItem(STORAGE_KEY, JSON.stringify(newData));
-    // localStorage.setItem("temp-book-data", stringifiedValue);
     // window.location.href = `../?category=umum`;
   });
 
