@@ -51,7 +51,7 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${getUrlVars().id}
       if (date == thisDate) {
         nextHour = thisHour + 3;
       }
-      if (nextHour >= 23) {
+      if (nextHour > 23) {
         nextHour = 0 + thisHour + 1;
         newDate = dates.map((d) => parseInt(d)).map((d) => d + 1);
         tomorrow = true;
@@ -112,3 +112,12 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${getUrlVars().id}
 // book
 document.getElementById("banner").innerHTML = navbarHTML();
 calendar();
+
+const radioBtnValue = Array.from(document.querySelectorAll("input[name = book-date]"));
+      radioBtnValue.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          let radval = JSON.parse(btn.value);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(radval));
+          console.log(JSON.stringify(radval));
+        });
+      });
