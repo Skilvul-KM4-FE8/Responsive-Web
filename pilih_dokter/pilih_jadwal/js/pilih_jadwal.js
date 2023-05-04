@@ -23,75 +23,67 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${getUrlVars().id}
     });
 
     console.log(doctorNow);
-  })
-  .catch((e) => console.log(e));
 
-// book
-document.getElementById("banner").innerHTML = navbarHTML();
-calendar();
-const containerSchedule = document.querySelector(".container-jadwal");
-const days = Array.from(document.querySelectorAll(".available"));
-// console.log(days[0].innerHTML)
-let dates = [];
-days.forEach((day) => {
-  // day.addEventListener('click',function (){
-  //   console.log(day)
-  // })
-  dates.push(day.innerHTML);
-});
+    const containerSchedule = document.querySelector(".container-jadwal");
+    const days = Array.from(document.querySelectorAll(".available"));
+    // console.log(days[0].innerHTML)
+    let dates = [];
+    days.forEach((day) => {
+      dates.push(day.innerHTML);
+    });
 
-let today = new Date();
-// var time = today. getHours() + ":" + today
-let thisHour = today.getHours();
-let thisDate = today.getDate();
-// let thisDay = today.getDay()
-// let day = today.toString().split(" ")[0]
-let day = today;
+    let today = new Date();
+    // var time = today. getHours() + ":" + today
+    let thisHour = today.getHours();
+    let thisDate = today.getDate();
+    // let thisDay = today.getDay()
+    // let day = today.toString().split(" ")[0]
+    let day = today;
 
-// let tomorrow = new Date();
-// tomorrow.setDate(tomorrow.getDate()+1);
+    // let tomorrow = new Date();
+    // tomorrow.setDate(tomorrow.getDate()+1);
 
-let nextHour = 0;
-let newDate = [];
-dates.forEach((date) => {
-  let tomorrow = false;
-  if (date == thisDate) {
-    nextHour = thisHour + 3;
-  }
-  if (nextHour >= 23) {
-    nextHour = 0 + thisHour + 1;
-    newDate = dates.map((d) => parseInt(d)).map((d) => d + 1);
-    tomorrow = true;
-    day.setDate(today.getDate() + 1);
-    // console.log(day)
-  }
+    let nextHour = 0;
+    let newDate = [];
+    dates.forEach((date) => {
+      let tomorrow = false;
+      if (date == thisDate) {
+        nextHour = thisHour + 3;
+      }
+      if (nextHour >= 23) {
+        nextHour = 0 + thisHour + 1;
+        newDate = dates.map((d) => parseInt(d)).map((d) => d + 1);
+        tomorrow = true;
+        day.setDate(today.getDate() + 1);
+        // console.log(day)
+      }
 
-  console.log(nextHour, newDate);
+      console.log(nextHour, newDate);
 
-  let now = today.toString().split(" ");
+      let now = today.toString().split(" ");
 
-  nextHour++;
+      nextHour++;
 
-  let value = {
-    id: id,
-    // name: doctorNow.name,
-    date: date,
-    day: now[0],
-    month: now[1],
-    year: now[3],
-    startHour: nextHour,
-    endHour: nextHour + 1,
-  };
+      let value = {
+        id: id,
+        // name: doctorNow.name,
+        date: date,
+        day: now[0],
+        month: now[1],
+        year: now[3],
+        startHour: nextHour,
+        endHour: nextHour + 1,
+      };
 
-  let stringifiedValue = JSON.stringify(value);
+      let stringifiedValue = JSON.stringify(value);
 
-  containerSchedule.innerHTML += `<div class="form-check ms-0 py-3 px-5 border rounded mt-1 shadow-sm  border-2">
+      containerSchedule.innerHTML += `<div class="form-check ms-0 py-3 px-5 border rounded mt-1 shadow-sm  border-2">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-1 d-flex justify-content-center align-items-center">
                                             <input class="form-check-input" type="radio" name="book-date" id="book-date-${date}" style="font-size: 25px; border: 2px solid #3655D5;" value='${stringifiedValue}' ${
-    date == thisDate ? "required" : ""
-  }>
+        date == thisDate ? "required" : ""
+      }>
                                         </div>
                                         <div class="col">
                                             <label class="form-check-label" for="book-date-${date}">
@@ -103,31 +95,21 @@ dates.forEach((date) => {
                                 </div>
                               </div>`;
 
-  const radioBtnValue = Array.from( document.querySelectorAll('input[name = book-date]'));
-  radioBtnValue.forEach(btn => {
-  btn.addEventListener('click', () =>{
-    let radval = JSON.parse( btn.value);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(radval));
-    console.log(JSON.stringify(radval));
+      const radioBtnValue = Array.from(document.querySelectorAll("input[name = book-date]"));
+      radioBtnValue.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          let radval = JSON.parse(btn.value);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(radval));
+          console.log(JSON.stringify(radval));
+        });
+      });
+
+      // btn Book
+      eventBtnBooked();
+    });
   })
-})
+  .catch((e) => console.log(e));
 
-  // btn Book
-  eventBtnBooked()
-
-  // console.log(time)
-  console.log(day);
-  console.log(thisDate);
-  console.log(thisHour);
-  // console.log(thisDay)
-  console.log(today);
-});
-
-// console.log(time)
-// console.log(day)
-// console.log(thisDate)
-// console.log(thisHour)
-// console.log(thisDay)
-// console.log(today)
-// console.log(dates)
-// console.log(value)
+// book
+document.getElementById("banner").innerHTML = navbarHTML();
+calendar();
