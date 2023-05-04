@@ -3,6 +3,7 @@ import { getUrlVars } from "../../js/module/geturl.js";
 import { calendar } from "./module/calendar.js";
 import { navbarHTML } from "./module/navbar_html.js";
 import { cardAboutDoctor } from "./module/card_about_doctor.js";
+import { eventBtnBooked } from "./module/event_button_booked.js";
 
 const STORAGE_KEY = "temp-booked-data";
 
@@ -112,14 +113,7 @@ dates.forEach((date) => {
 })
 
   // btn Book
-  const btnBook = document.querySelector("#book-btn");
-  btnBook.addEventListener("click", (e) => {
-    e.preventDefault();
-      const radioBtnValue = document.querySelector('input[name = book-date]:checked').value;
-      console.log(radioBtnValue);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(radioBtnValue));
-    // window.location.href = `../?category=umum`;
-  });
+  eventBtnBooked()
 
   // console.log(time)
   console.log(day);
