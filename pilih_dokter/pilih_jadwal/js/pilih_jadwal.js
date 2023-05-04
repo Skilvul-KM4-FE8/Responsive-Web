@@ -67,7 +67,7 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${getUrlVars().id}
 
       let value = {
         id: id,
-        // name: doctorNow.name,
+        name: doctorNow.name,
         date: date,
         day: now[0],
         month: now[1],
