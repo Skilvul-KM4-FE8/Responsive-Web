@@ -88,7 +88,7 @@ dates.forEach((date) => {
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-1 d-flex justify-content-center align-items-center">
-                                            <input class="form-check-input" type="radio" name="book-date" id="book-date-${date}" style="font-size: 25px; border: 2px solid #3655D5;" value="${stringifiedValue}" ${
+                                            <input class="form-check-input" type="radio" name="book-date" id="book-date-${date}" style="font-size: 25px; border: 2px solid #3655D5;" value='${stringifiedValue}' ${
     date == thisDate ? "required" : ""
   }>
                                         </div>
@@ -102,11 +102,22 @@ dates.forEach((date) => {
                                 </div>
                               </div>`;
 
+  const radioBtnValue = Array.from( document.querySelectorAll('input[name = book-date]'));
+  radioBtnValue.forEach(btn => {
+  btn.addEventListener('click', () =>{
+    let radval = JSON.parse( btn.value);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(radval));
+    console.log(JSON.stringify(radval));
+  })
+})
+
   // btn Book
   const btnBook = document.querySelector("#book-btn");
   btnBook.addEventListener("click", (e) => {
     e.preventDefault();
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(value));
+      const radioBtnValue = document.querySelector('input[name = book-date]:checked').value;
+      console.log(radioBtnValue);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(radioBtnValue));
     // window.location.href = `../?category=umum`;
   });
 
