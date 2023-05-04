@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========= Initial CSS  ============ */
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #1e154f;
+}
+  
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1e154f;
+}
+  
+h4 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #1e154f;
+}
+  
+h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e154f;
+}
+  
+p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #3f4344;
+    line-height: 170%;
+    text-align: justify;
+}
+
+/* ========= Article  ============ */
+#breadcrumbs {
+    color: #787878;
+    margin-bottom: 25px;
+}
+
+#main-title {
+    color: #1678f2;
+}
+
+#date {
+    color: #a6a6a6;
+    line-height: 170%;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.article-content li {
+    line-height: 170%;
+}
+
+#img-thumbnail {
+    max-width: 650px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#sub-content {
+    line-height: 170%;
+}
+
+#artikel-lain {
+    line-height: 170%;
+    color: #1e154f;
+}
+
+#read-more-card img {
+    max-width: 152px;
+    height: auto;
+    padding: 20px 13px 0px 18px;
+}
+
+#card-title {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#column-extra {
+    margin-top: 50px;
+}
+
+#text-body-secondary {
+    box-shadow: inset 0 0 0 0 #1678f2;;
+    color: #1678f2;;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+#text-body-secondary:hover {
+    box-shadow: inset 200px 0 0 0 #1678f2;;
+    color: white;
+}
