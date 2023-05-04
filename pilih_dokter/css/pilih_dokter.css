@@ -8,6 +8,10 @@
 .text-carevul {
     color: #3655D5;
 }
+.border-carevul {
+    /* color: #3655D5; */
+    border: 1px solid #3655D5;
+}
 
 .bolder {
     font-weight: 600;

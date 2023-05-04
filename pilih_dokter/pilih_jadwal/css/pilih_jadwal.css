@@ -7,3 +7,9 @@
 .not-active {
     color: red;
 }
+
+.border-carevul {
+    /* color: #3655D5; */
+    /* border: 1px solid #3655D5; */
+    border-color: #3655D5 !important;
+}
