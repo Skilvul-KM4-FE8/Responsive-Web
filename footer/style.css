@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========= Initial CSS  ============ */
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #1e154f;
+}
+
+h3 {
+  font-size: 37px;
+  font-weight: bold;
+  color: #1e154f;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 21px;
+  color: #1e154f;
+}
+
+h5 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #1e154f;
+}
+
+p {
+  font-weight: normal;
+  font-size: 13px;
+  color: #3f4344;
+  line-height: 15px;
+}
+/* For Footer */
+.text-carevul {
+  color: #296fde;
+}
+
+.bg-color-footer {
+  background-color: #f9fbfd;
+}
+
+.text-gray {
+  color: #333333;
+}
+
+.social-media {
+  font-size: 30px;
+  color: #296fde;
+  width: 60%;
+}
+
+.list-footer {
+  list-style: none;
+}
+
+.list-footer a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.text-light-gray {
+  color: #5f6d7e;
+}
+/* Resopnsive CSS */
+
+/* Tablates */
+@media (max-width: 991px) {
+  .social-media {
+    font-size: 20px;
+    color: #296fde;
+    width: 60%;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  }
+  .social-media {
+    font-size: 20px;
+    color: #296fde;
+    width: 60%;
+  }
+}
