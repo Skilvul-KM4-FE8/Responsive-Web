@@ -34,3 +34,15 @@ fetch(
     });
   })
   .catch((error) => console.error(error));
+
+// Ubah status Login di navbar
+const sessionName = sessionStorage.getItem("name");
+const sessionEmail = sessionStorage.getItem("email");
+const sessionId = sessionStorage.getItem("id");
+const navbarLoginOrNot = document.querySelector("#navbar-login-or-not");
+
+console.log(sessionName, sessionEmail, sessionId)
+
+if (sessionName && sessionEmail && sessionId) {
+  navbarLoginOrNot.innerHTML = `<h5>${sessionName}</h5>`
+}
