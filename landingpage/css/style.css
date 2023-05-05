@@ -198,7 +198,7 @@ p {
   color: #fff;
 }
 
-/* specilist items */
+/* spesialis item */
 
 .specilist_items {
   display: grid;
@@ -226,6 +226,78 @@ p {
   color: #1e154f;
   font-weight: bold;
   margin-top: 10px;
+}
+
+/* artikel item  */
+
+.article-top {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+#article-title {
+  color: #296fde;
+}
+#article-subtitle {
+  line-height: 150%;
+}
+
+#col-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #f2f5f8;
+  padding: 20px;
+}
+
+.card-title {
+  line-height: 150%;
+  color: #151515;
+  font-weight: 600;
+}
+
+.card-text {
+  line-height: 125%;
+  font-size: 14px;
+  color: #5f5f5f;
+  font-weight: 400;
+}
+
+#card-goto-read {
+  font-weight: 600;
+  color: #3655d5;
+  font-size: 15px;
+}
+
+#button-more {
+  background: linear-gradient(96.14deg, #3f95ff -10.84%, #7c1add 164.3%);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 1px solid #3655d5;
+  border-radius: 11.25px;
+  transition: 0.5s ease-in-out;
+  margin-top: 40px;
+}
+
+#button-more:hover {
+  background: white;
+  color: #3655d5;
 }
 
 /* Feedback Section */
