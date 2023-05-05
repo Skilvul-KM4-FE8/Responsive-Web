@@ -98,7 +98,7 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${tempData.id}&pag
         localStorage.setItem("booked-doctors", JSON.stringify(newBookedDoctor));
       }
 
-      window.location.href = `../?category=umum`;
+      window.location.href = `./../../../ruang_konsultasi`;
     };
 
     formBooked.addEventListener("submit", handleSubmitForm);

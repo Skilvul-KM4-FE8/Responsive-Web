@@ -15,6 +15,7 @@ const thisDay = today.getDate();
 let card = ''
 // do if booked doctor exists in local storage
 if (bookedDoctorInLocalStorage) {
+    containerDoctorList.innerHTML = ""
     bookedDoctorInLocalStorage.forEach( doctor => {
         let consultDate = parseInt(doctor.bookedDate) 
         console.log(consultDate)
