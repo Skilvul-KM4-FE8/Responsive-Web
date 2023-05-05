@@ -1,5 +1,10 @@
 const STORAGE_KEY = "booked-doctor";
 
+const sessionName = sessionStorage.getItem("name");
+const sessionEmail = sessionStorage.getItem("email");
+const sessionId = sessionStorage.getItem("id");
+
+
 const formBooked = document.querySelector("#form-book");
 
 const tempData = JSON.parse(localStorage.getItem("temp-booked-data"));
@@ -37,6 +42,9 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${tempData.id}&pag
                                 <input type="hidden" id="day" name="day" value="${tempData.day}">
                                 <input type="hidden" id="start-hour" name="start-hour" value="${tempData.startHour}">
                                 <input type="hidden" id="end-hour" name="end-hour" value="${tempData.endHour}">
+                                <input type="hidden" id="user-account-name" name="end-hour" value="${sessionId}">
+                                <input type="hidden" id="user-account-email" name="end-hour" value="${sessionEmail}">
+                                <input type="hidden" id="user-account-id" name="end-hour" value="${sessionId}">
                                 </div>
                             <div class="text-center mt-4">
                                 <p class="fw-light text-carevul"> Harap memasuki roomchat konsultasi pada jadwal yang di tentukan</p>
@@ -58,6 +66,9 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${tempData.id}&pag
     const day = document.getElementById("day");
     const startHour = document.getElementById("start-hour");
     const endHour = document.getElementById("end-hour");
+    const accountUserName = document.getElementById("user-account-name");
+    const accountUserEmail = document.getElementById("user-account-email");
+    const accountUserId = document.getElementById("user-account-id");
 
     const btnConfirm = document.getElementById("btn-confirm");
 
@@ -84,6 +95,9 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${tempData.id}&pag
         day: day.value,
         startHour: startHour.value,
         endHour: endHour.value,
+        accountUserName: accountUserName.value,
+        accountUserEmail: accountUserEmail.value,
+        accountUserId: accountUserId.value
       };
 
       // if (validateInput) {
@@ -106,3 +120,14 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${tempData.id}&pag
 console.log("setelah API");
 
 console.log("selesai");
+
+
+
+// Ubah status Login di navbar
+console.log(sessionName, sessionEmail, sessionId)
+
+const navbarLoginOrNot = document.querySelector("#navbar-login-or-not");
+
+if (sessionName && sessionEmail && sessionId) {
+  navbarLoginOrNot.innerHTML = `<h5>${sessionName}</h5>`
+}

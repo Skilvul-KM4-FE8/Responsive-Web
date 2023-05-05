@@ -1,5 +1,5 @@
 // import module
-import { getUrlVars } from "../../js/module/geturl.js";
+// import { getUrlVars } from "../../js/module/geturl.js";
 import { calendar } from "./module/calendar.js";
 import { navbarHTML } from "./module/navbar_html.js";
 import { cardAboutDoctor } from "./module/card_about_doctor.js";
@@ -8,11 +8,19 @@ import { eventBtnBooked } from "./module/event_button_booked.js";
 
 const STORAGE_KEY = "temp-booked-data";
 
+const sessionName = sessionStorage.getItem("lastname");
+const sessionEmail = sessionStorage.getItem("email");
+const sessionId = sessionStorage.getItem("id");
+const navbarLoginOrNot = document.querySelector("#navbar-login-or-not")
+
+
 let params = new URL(document.location).searchParams;
 let id = params.get("id");
 
+
+
 // get data from mock API
-fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${getUrlVars().id}&page=1&limit=1`)
+fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${id}&page=1&limit=1`)
   .then((response) => response.json())
   .then((result) => {
     const cardDoctor = document.querySelector("#card-doctor");
@@ -74,6 +82,9 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${getUrlVars().id}
         year: now[3],
         startHour: nextHour,
         endHour: nextHour + 1,
+        userId: sessionId,
+        userEmail: sessionEmail,
+        userName: sessionName
       };
 
       let stringifiedValue = JSON.stringify(value);
@@ -123,10 +134,6 @@ const radioBtnValue = Array.from(document.querySelectorAll("input[name = book-da
       });
 
 // Ubah status Login di navbar
-const sessionName = sessionStorage.getItem("lastname");
-const sessionEmail = sessionStorage.getItem("email");
-const sessionId = sessionStorage.getItem("id");
-const navbarLoginOrNot = document.querySelector("#navbar-login-or-not")
 
 if (sessionName && sessionEmail && sessionId) {
   navbarLoginOrNot.innerHTML = `<h5>${sessionName}</h5>`
