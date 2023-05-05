@@ -266,3 +266,25 @@ footer p {
 .logo {
   margin-bottom: 10px;
 }
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: white;
+    padding: 16px;
+    margin-top: 18px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  .navbar-collapse {
+    background: white;
+    padding: 16px;
+  }
+}
