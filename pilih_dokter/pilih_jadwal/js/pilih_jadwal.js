@@ -121,3 +121,13 @@ const radioBtnValue = Array.from(document.querySelectorAll("input[name = book-da
           console.log(JSON.stringify(radval));
         });
       });
+
+// Ubah status Login di navbar
+const sessionName = sessionStorage.getItem("lastname");
+const sessionEmail = sessionStorage.getItem("email");
+const sessionId = sessionStorage.getItem("id");
+const navbarLoginOrNot = document.querySelector("#navbar-login-or-not")
+
+if (sessionName && sessionEmail && sessionId) {
+  navbarLoginOrNot.innerHTML = `<h5>${sessionName}</h5>`
+} 
