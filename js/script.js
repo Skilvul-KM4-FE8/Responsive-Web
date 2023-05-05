@@ -23,7 +23,7 @@ fetch("https://6450d733e1f6f1bb22a05272.mockapi.io/medical-article")
             <div class="card-body">
                 <h5 class="card-title">${post.title}</h5>
                 <p class="card-text">${post.desc}</p>
-            <a href="read-article1.html" id="card-goto-read" style="text-decoration: none;">Baca Selengkapnya</a>
+            <a href="${post.fulltext}" id="card-goto-read" style="text-decoration: none;">Baca Selengkapnya</a>
             </div>
         </div>
         `;
