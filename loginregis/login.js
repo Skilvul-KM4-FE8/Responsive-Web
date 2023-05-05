@@ -23,12 +23,15 @@ loginForm.addEventListener("submit", async (e) => {
     alert("Email atau Password anda salah");
   } else if (tempData[0].email == user.email && tempData[0].password == user.password) {
     loginForm.reset();
-    // location.href = " ";
+    location.href = "./../index.html";
     alert("email benar");
     console.log(tempData);
-    localStorage.setItem('name',`${tempData[0].name}`);
-    localStorage.setItem('email',`${tempData[0].email}`);
-    localStorage.setItem('id',`${tempData[0].id}`);
+    // localStorage.setItem("name", `${tempData[0].name}`);
+    // localStorage.setItem("email", `${tempData[0].email}`);
+    // localStorage.setItem("id", `${tempData[0].id}`);
+    sessionStorage.setItem("name", `${tempData[0].name}`);
+    sessionStorage.setItem("email", `${tempData[0].email}`);
+    sessionStorage.setItem("id", `${tempData[0].id}`);
   } else {
     alert("Email atau Password anda salah");
   }

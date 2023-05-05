@@ -1,1 +1,1 @@
-\*ya allah kuatkan hamba ya allah
+##ya allah gini amat ya allah, aku ngga sanggup
