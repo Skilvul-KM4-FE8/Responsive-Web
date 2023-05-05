@@ -8,6 +8,10 @@ console.log(containerDoctorList)
 const bookedDoctorInLocalStorage = JSON.parse(localStorage.getItem(STORAGE_KEY));
 console.log(bookedDoctorInLocalStorage)
 
+const sessionName = sessionStorage.getItem("name");
+const sessionEmail = sessionStorage.getItem("email");
+const sessionId = sessionStorage.getItem("id");
+
 const today = new Date();
 const thisDay = today.getDate();
 
@@ -15,10 +19,13 @@ const thisDay = today.getDate();
 let card = ''
 // do if booked doctor exists in local storage
 if (bookedDoctorInLocalStorage) {
+
     containerDoctorList.innerHTML = ""
     bookedDoctorInLocalStorage.forEach( doctor => {
         let consultDate = parseInt(doctor.bookedDate) 
         console.log(consultDate)
+    
+    if (doctor.accountUserName == sessionName && doctor.accountUserEmail == sessionEmail && doctor.accountUserId == sessionId) {
 
         let countDown = ''
 
@@ -59,5 +66,16 @@ if (bookedDoctorInLocalStorage) {
 
 
         containerDoctorList.innerHTML += card 
+    }
     })
+}
+
+// Ubah status Login di navbar
+
+const navbarLoginOrNot = document.querySelector("#navbar-login-or-not");
+
+console.log(sessionName, sessionEmail, sessionId)
+
+if (sessionName && sessionEmail && sessionId) {
+  navbarLoginOrNot.innerHTML = `<h5>${sessionName}</h5>`
 }
