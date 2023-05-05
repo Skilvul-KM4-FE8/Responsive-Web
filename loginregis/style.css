@@ -36,7 +36,7 @@ input[type="password"]::placeholder {
   color: #5f6d7e;
 }
 
-.login-form .btn-1 {
+/* .login-form .btn-1 {
   width: 100%;
   height: 45px;
   font-style: normal;
@@ -55,7 +55,7 @@ input[type="password"]::placeholder {
   border: 2px solid #7c1add;
   color: #7c1add;
   box-sizing: border-box;
-}
+} */
 
 .login-form .btn-2 {
   margin-top: 80px;
@@ -121,9 +121,9 @@ input[type="password"]::placeholder {
   margin-top: 10px;
 }
 
-.mrgn-2 {
+/* .mrgn-2 {
   margin-top: 15px;
-}
+} */
 
 .mrgn-3 {
   margin: 30px 0 20px 0;
@@ -177,7 +177,7 @@ input[type="password"]::placeholder {
   );
 }
 
-.h-line {
+/* .h-line {
   width: 100%;
   height: 1px;
   background: #5f6d7e;
@@ -187,11 +187,7 @@ input[type="password"]::placeholder {
   width: 100%;
   height: 0.5px;
   background: #5f6d7e;
-}
-
-.or small {
-  overflow: visible;
-}
+} */
 
 .login-right img {
   display: flex;
