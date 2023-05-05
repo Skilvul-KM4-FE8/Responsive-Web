@@ -31,48 +31,47 @@
 <body>
 
 
-    <section id="banner">
-        <!-- Header -->
-        <header>
-            <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top py-4">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="./assets/images/carevul-logo.svg" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav  m-auto mb-3 mb-lg-0 ">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active">Beranda</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active">Konsultasi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active">Artikel</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active">Kalkulator BMI</a>
-                            </li>
-                        </ul>
-                        
-                        <div>
-                            <a href="#" class="main-button-register">Register</a>
-                            <a href="#" class="main-button">Login</a>
-                        </div>
-
+    <!-- Header -->
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top py-4">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="landingpage/images/carevul-logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  m-auto mb-3 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a href="./../index.html" class="nav-link active">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./../kategori_dokter/index.html" class="nav-link active">Konsultasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./../article/article.html" class="nav-link active">Artikel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./../bmi-calculator/index.html" class="nav-link active">Kalkulator BMI</a>
+                        </li>
+                    </ul>
+                    
+                    <div id="navbar-login-or-not">
+                        <a href="./../loginregis/register.html" class="main-button-register">Register</a>
+                        <a href="./../loginregis/login.html" class="main-button">Login</a>
                     </div>
+
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
 
         <main>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md">
 
@@ -87,12 +86,12 @@
                                   <div id="error-weight">dsdfs</div>
                                 </div>
                                 <div class="input-row">
-                                  <label for="height">Put your height in here (CM)</label><br />
+                                  <label for="height"><h5 class="text-carevul"> Put your height in here (CM)</h5></label><br />
                                   <input type="number" id="height" placeholder="169" class="form-control rounded" required />
                                   <div id="error-height"></div>
                                 </div>
                                 <button id="btn-calculate">Calculate BMI</button>
-                      
+
                                 <div id="result"></div>
                               </form>
                             </div>
@@ -126,9 +125,9 @@
 
                     <div class="list-footer ">
                         <f4>
-                            <a href="" class="mb-1 d-block text-gray">Home</a> <br>
-                            <a href="" class="mb-1 d-block text-gray">Artikel</a> <br>
-                            <a href="" class="mb-1 d-block text-gray">Kalkulator BMI</a> <br>
+                            <a href="./../index.html" class="mb-1 d-block text-gray">Home</a> <br>
+                            <a href="./../article/article.html" class="mb-1 d-block text-gray">Artikel</a> <br>
+                            <a href="./../bmi-calculator/index.html" class="mb-1 d-block text-gray">Kalkulator BMI</a> <br>
                         </f4>
                     </div>
                 </div>
