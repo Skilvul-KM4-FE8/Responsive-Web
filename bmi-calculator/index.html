@@ -25,6 +25,7 @@
 
     <!-- Own Css -->
     <link rel="stylesheet" href="./css/navbar.css"> 
+    <link rel="stylesheet" href="./css/pilih_dokter.css">
     <link rel="stylesheet" href="./css/bmi-calc.css">
 </head>
 <body>
@@ -75,24 +76,24 @@
                 <div class="row">
                     <div class="col-md">
 
-                        <div class="container-minheight">
+                        <div class="container-minheight margin-top-initial">
                             <div id="container">
-                              <header>Check your BMI</header>
-                              <div class="subtitle">Enter your weight and height below to check your BMI results</div>
+                              <header><h3 class="text-carevul"> Check your BMI</h3></header>
+                              <div class="fw-light">Untuk menghitung BMI, masukkan tinggi badan dan berat badan kamu yuk!</div>
                               <form action="" id="bmiCalculator">
                                 <div class="input-row">
-                                  <label for="weight">Put your weight in here (KG)</label><br />
-                                  <input type="number" id="weight" placeholder="60" />
+                                  <label for="weight"><h5 class="text-carevul"> Put your weight in here (KG) </h5></label><br />
+                                  <input type="number" id="weight" placeholder="60" class="form-control rounded" required />
                                   <div id="error-weight">dsdfs</div>
                                 </div>
                                 <div class="input-row">
                                   <label for="height">Put your height in here (CM)</label><br />
-                                  <input type="number" id="height" placeholder="169" />
+                                  <input type="number" id="height" placeholder="169" class="form-control rounded" required />
                                   <div id="error-height"></div>
                                 </div>
-                                <button>Calculate BMI</button>
+                                <button id="btn-calculate">Calculate BMI</button>
                       
-                                <div class="result"></div>
+                                <div id="result"></div>
                               </form>
                             </div>
                           </div>
@@ -171,6 +172,7 @@
 
 
     <!-- Own Js -->
+    <script src="./js/bmi-calc.js" type="module"></script>
     <script src="./js/navbar.js"></script>
 </body>
 </html>
