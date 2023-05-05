@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========= Initial CSS  ============ */
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #1e154f;
+}
+
+h3 {
+  font-size: 37px;
+  font-weight: bold;
+  color: #1e154f;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 21px;
+  color: #1e154f;
+}
+
+h5 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #1e154f;
+}
+
+p {
+  font-weight: normal;
+  font-size: 13px;
+  color: #3f4344;
+  line-height: 15px;
+}
+
+.main-button {
+  background: linear-gradient(96.14deg, #3f95ff -10.84%, #7c1add 164.3%);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 1px solid #3655d5;
+  border-radius: 11.25px;
+  transition: 0.5s ease-in-out;
+}
+
+.main-button:hover {
+  background: white;
+  color: #3655d5;
+}
+
+.main-button-register {
+  background-color: 0e90E4;
+  color: #3655d5;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 1px solid #3655d5;
+  border-radius: 11.25px;
+  transition: 0.5s ease-in-out;
+}
+
+.main-button-register:hover {
+  background: linear-gradient(96.14deg, #3f95ff -10.84%, #7c1add 164.3%);
+  border: 1px solid #3655d5;
+  color: white;
+}
+
+.scroll-on {
+  background-color: white;
+  padding: 14px;
+  box-shadow: linear-gradient(96.14deg, #3f95ff -10.84%, #7c1add 164.3%);
+}
+
+/* ===================== BANNER SECTION ====================== */
+/* header */
+#navbar {
+  transition: 0.5s ease-in-out;
+}
+.navbar-nav li a {
+  border-radius: 11.25px;
+  font-size: 16px;
+  color: #1e154f;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+  background-color: #ffffff;
+  border-radius: 11.25px;
+  border: 1px solid #296fde;
+}
+
+#banner {
+  background: url("../images/banner.png") no-repeat center;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  #navbar {
+    text-align: center;
+  }
+  .navbar-collapse {
+    background: white;
+    padding: 16px;
+    margin-top: 18px;
+  }
+  .navbar-nav li a {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 11.25px;
+  }
+
+  .navbar-nav li a:hover {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 11.25px;
+    border: 1px solid #296fde;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  .navbar-nav li a {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 11.25px;
+  }
+
+  .navbar-nav li a:hover {
+    color: #ffffff;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 11.25px;
+    border: 1px solid #296fde;
+  }
+  .navbar-collapse {
+    background: white;
+    padding: 16px;
+  }
+  .banner .wrapper-top {
+    padding-top: 39px;
+  }
+}
