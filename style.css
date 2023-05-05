@@ -1,9 +1,19 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+input[type="text"]::placeholder {
+  color: #bcbcbc;
+}
+input[type="email"]::placeholder {
+  color: #bcbcbc;
+}
+input[type="password"]::placeholder {
+  color: #bcbcbc;
+}
 
 .login {
   height: 100vh;
+  display: flex;
 }
 
 .header h1 {
@@ -101,7 +111,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #d8d8d8;
+  color: #5f6d7e;
   background: #ffffff;
   border: 2px solid #296fde;
   border-radius: 8.91238px;
@@ -174,10 +184,10 @@
 }
 
 .h-line-regis {
-    width: 100%;
-    height: 0.5px;
-    background: #5f6d7e;
-  }
+  width: 100%;
+  height: 0.5px;
+  background: #5f6d7e;
+}
 
 .or small {
   overflow: visible;
@@ -185,4 +195,24 @@
 
 .login-right img {
   display: flex;
+}
+
+.login-left {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .login {
+    margin: 40px 0;
+    display: block;
+  }
+  .login-right {
+    display: none;
+  }
+  .login-left {
+    width: 100%;
+  }
 }

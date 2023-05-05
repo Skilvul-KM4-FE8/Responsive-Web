@@ -23,7 +23,7 @@
   </head>
   <body>
     <section class="login d-flex">
-      <div class="login-left w-50 h-100">
+      <div class="login-left h-100">
         <div class="row justify-content-center align-items-center h-100">
           <div class="col-7">
             <div class="header">
@@ -40,27 +40,32 @@
                 Login with Apple
               </button>
 
-              <div class="d-flex justify-content-center align-items-center mrgn-3 ">
-                <div class="h-line me-2 "></div>
+              <div class="d-flex justify-content-center align-items-center mrgn-3">
+                <div class="h-line me-2"></div>
                 <small class="option">OR</small>
                 <div class="h-line ms-2"></div>
               </div>
 
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Masukkan Email" />
+              <form id="form-login">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan Email" />
 
-              <label for="password" class="form-label mrgn-1">Password</label>
-              <input type="password" class="form-control" id="inputPassword" placeholder="Masukkan Password">
+                <label for="password" class="form-label mrgn-1">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Masukkan Password" />
 
-              <button class="btn-2">Login</button>
-              <p class="fsize-15">Kamu belum punya akun? <span class="regis">Daftar Disini</span></p>
+                <button class="btn-2" type="submit">Login</button>
+              </form>
+              <p class="fsize-15 d-block text-center">
+                Kamu belum punya akun?
+                <a href="register.html" class="text-decoration-none"><span class="regis">Daftar Disini</span></a>
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div class="login-right w-50 h-100 bg-color">
         <div class="d-flex justify-content-center py-5">
-          <img src="img/login2.svg" alt="">
+          <img src="img/login2.svg" alt="" />
         </div>
       </div>
     </section>
@@ -68,6 +73,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="login.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
