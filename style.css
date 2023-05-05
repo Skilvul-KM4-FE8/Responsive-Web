@@ -173,6 +173,12 @@
   background: #5f6d7e;
 }
 
+.h-line-regis {
+    width: 100%;
+    height: 0.5px;
+    background: #5f6d7e;
+  }
+
 .or small {
   overflow: visible;
 }
