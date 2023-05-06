@@ -81,38 +81,57 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${tempData.id}&pag
     const handleSubmitForm = (event) => {
       event.preventDefault();
 
-      const bookedDoctor = {
-        userName: inputName.value,
-        keluhan: inputKeluhan.value,
-        doctorName: doctorName.value,
-        doctorAvatar: doctorAvatar.value,
-        doctorCategory: doctorCategory.value,
-        doctorHospital: doctorHospital.value,
-        doctorId: doctorId.value,
-        bookedDate: bookedDate.value,
-        year: year.value,
-        month: month.value,
-        day: day.value,
-        startHour: startHour.value,
-        endHour: endHour.value,
-        accountUserName: accountUserName.value,
-        accountUserEmail: accountUserEmail.value,
-        accountUserId: accountUserId.value
-      };
-
-      // if (validateInput) {
-      const bookedDoctorInLocalStorage = JSON.parse(localStorage.getItem("booked-doctors"));
-      // }
-
-      if (bookedDoctorInLocalStorage) {
-        const newBookedDoctor = [...bookedDoctorInLocalStorage, bookedDoctor];
-        localStorage.setItem("booked-doctors", JSON.stringify(newBookedDoctor));
+      if(sessionEmail && sessionName && sessionId) {
+        
+        const bookedDoctor = {
+          userName: inputName.value,
+          keluhan: inputKeluhan.value,
+          doctorName: doctorName.value,
+          doctorAvatar: doctorAvatar.value,
+          doctorCategory: doctorCategory.value,
+          doctorHospital: doctorHospital.value,
+          doctorId: doctorId.value,
+          bookedDate: bookedDate.value,
+          year: year.value,
+          month: month.value,
+          day: day.value,
+          startHour: startHour.value,
+          endHour: endHour.value,
+          accountUserName: accountUserName.value,
+          accountUserEmail: accountUserEmail.value,
+          accountUserId: accountUserId.value
+        };
+  
+        // if (validateInput) {
+        const bookedDoctorInLocalStorage = JSON.parse(localStorage.getItem("booked-doctors"));
+        // }
+  
+        if (bookedDoctorInLocalStorage) {
+          const newBookedDoctor = [...bookedDoctorInLocalStorage, bookedDoctor];
+          localStorage.setItem("booked-doctors", JSON.stringify(newBookedDoctor));
+        } else {
+          const newBookedDoctor = [bookedDoctor];
+          localStorage.setItem("booked-doctors", JSON.stringify(newBookedDoctor));
+        }
+  
+        window.location.href = `./../../../ruang_konsultasi`;
       } else {
-        const newBookedDoctor = [bookedDoctor];
-        localStorage.setItem("booked-doctors", JSON.stringify(newBookedDoctor));
+        document.body.innerHTML += `<div class="latar d-flex justify-content-center align-items-center">
+        <div class="bungkus">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="kotak">
+                    <h1 class="text-carevul">Silahkan Login Dulu....</h1>
+                    <p>Kamu akan di arahkan ke halaman login dalam 3 detik...</p>
+                </div>
+            </div>
+        </div>
+    </div>`
+
+    setTimeout(() => {
+      window.location.href = `./../../../loginregis/login.html`;
+    },3000)
       }
 
-      window.location.href = `./../../../ruang_konsultasi`;
     };
 
     formBooked.addEventListener("submit", handleSubmitForm);
