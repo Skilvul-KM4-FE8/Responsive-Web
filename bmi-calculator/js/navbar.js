@@ -8,11 +8,11 @@ window.onscroll = function () {
 };
 
 
-const navbarContain = document.querySelector('#content-navbar');
+// const navbarContain = document.querySelector('#content-navbar');
 
-// export default navbarContain;
-export function navbarContent() {
-  return navbarContain;
-}
+// // export default navbarContain;
+// export function navbarContent() {
+//   return navbarContain;
+// }
 
-console.log(navbarContent())
+// console.log(navbarContent())
