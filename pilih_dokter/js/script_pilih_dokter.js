@@ -3,11 +3,12 @@ import { getUrlVars } from "./module/geturl.js";
 import { cardDoctor } from "./module/carddoctor.js";
 import { navbarHTML } from "../pilih_jadwal/js/module/navbar_html.js";
 
-// let params = new URL(document.location).searchParams;
-// let id = params.get("id");
+let params = new URL(document.location).searchParams;
+let category = params.get("category");
+console.log(category);
 
 // get data from mock API
-fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?category=${getUrlVars().id}`)
+fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?category=${category}`)
   .then((response) => response.json())
   .then((result) => {
     const containerDoctorsList = document.querySelector('#container-doctors');
