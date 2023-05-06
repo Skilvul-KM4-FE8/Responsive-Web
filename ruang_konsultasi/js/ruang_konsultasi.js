@@ -24,8 +24,19 @@ if (bookedDoctorInLocalStorage) {
     bookedDoctorInLocalStorage.forEach( doctor => {
         let consultDate = parseInt(doctor.bookedDate) 
         console.log(consultDate)
+        console.log(doctor)
+
+        console.log(doctor.accountUserName, doctor.accountUserEmail, doctor.accountUserId) 
+        console.log(sessionName, sessionEmail, sessionId) 
+
+        
+
+        // console.log((doctor.accountUserName == sessionName))
+        // console.log((doctor.accountUserId == sessionId))
+        // console.log((doctor.accountUserEmail == sessionEmail))
+        // console.log((doctor.accountUserName == sessionName && doctor.accountUserEmail === sessionEmail && doctor.accountUserId === sessionId))
     
-    if (doctor.accountUserName == sessionName && doctor.accountUserEmail == sessionEmail && doctor.accountUserId == sessionId) {
+    if (doctor.accountUserEmail == sessionEmail && doctor.accountUserId == sessionId) {
 
         let countDown = ''
 
