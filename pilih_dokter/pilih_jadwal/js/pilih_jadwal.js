@@ -59,7 +59,7 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${id}&page=1&limit
       if (date == thisDate) {
         nextHour = thisHour + 3;
       }
-      if (nextHour > 23) {
+      if (nextHour > 19) {
         nextHour = 0 + thisHour + 1;
         newDate = dates.map((d) => parseInt(d)).map((d) => d + 1);
         tomorrow = true;
