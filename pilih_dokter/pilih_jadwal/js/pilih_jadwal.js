@@ -11,13 +11,10 @@ const STORAGE_KEY = "temp-booked-data";
 const sessionName = sessionStorage.getItem("lastname");
 const sessionEmail = sessionStorage.getItem("email");
 const sessionId = sessionStorage.getItem("id");
-const navbarLoginOrNot = document.querySelector("#navbar-login-or-not")
-
+const navbarLoginOrNot = document.querySelector("#navbar-login-or-not");
 
 let params = new URL(document.location).searchParams;
 let id = params.get("id");
-
-
 
 // get data from mock API
 fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${id}&page=1&limit=1`)
@@ -58,13 +55,26 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${id}&page=1&limit
       let tomorrow = false;
       if (date == thisDate) {
         nextHour = thisHour + 3;
+        console.log(nextHour)
+        day.setDate(today.getDate() + 1);
+        if (nextHour > 19 ) {
+          nextHour = 0 + 5;
+          console.log(nextHour)
+        }
       }
-      if (nextHour > 23) {
-        nextHour = 0 + thisHour + 1;
+      if (nextHour > 19) {
+        if (nextHour <= 8) {
+          nextHour = 0 + thisHour + 5;
+        } else {
+          nextHour = 0 + thisHour + 1;
+        }
+        
         newDate = dates.map((d) => parseInt(d)).map((d) => d + 1);
         tomorrow = true;
         day.setDate(today.getDate() + 1);
+        console.log(nextHour)
         // console.log(day)
+        
       }
 
       console.log(nextHour, newDate);
@@ -84,7 +94,7 @@ fetch(`https://64506b72a3221969114a2d25.mockapi.io/doctors?id=${id}&page=1&limit
         endHour: nextHour + 1,
         userId: sessionId,
         userEmail: sessionEmail,
-        userName: sessionName
+        userName: sessionName,
       };
 
       let stringifiedValue = JSON.stringify(value);
@@ -125,16 +135,16 @@ document.getElementById("banner").innerHTML = navbarHTML();
 calendar();
 
 const radioBtnValue = Array.from(document.querySelectorAll("input[name = book-date]"));
-      radioBtnValue.forEach((btn) => {
-        btn.addEventListener("click", () => {
-          let radval = JSON.parse(btn.value);
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(radval));
-          console.log(JSON.stringify(radval));
-        });
-      });
+radioBtnValue.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    let radval = JSON.parse(btn.value);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(radval));
+    console.log(JSON.stringify(radval));
+  });
+});
 
 // Ubah status Login di navbar
 
 if (sessionName && sessionEmail && sessionId) {
-  navbarLoginOrNot.innerHTML = `<h5>${sessionName}</h5>`
-} 
+  navbarLoginOrNot.innerHTML = `<h5>${sessionName}</h5>`;
+}
