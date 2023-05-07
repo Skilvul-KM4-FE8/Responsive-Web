@@ -61,7 +61,7 @@ if (bookedDoctorInLocalStorage) {
                                     <p class="text-light-gray mt-3">Jadwal Konsultasi : <span class="text-carevul"> ${doctor.day}, ${doctor.bookedDate} ${doctor.month} ${doctor.year} | ${doctor.startHour}:00 - ${doctor.endHour}:00 WIB </span>
                                         <br> ${doctor.doctorHospital} 
                                     </p>
-                                    <h6 class="mb-3"><span class="text-carevul">Nama Pasien : ${doctor.userName} <br> Keluhan : ${doctor.keluhan} Pasien</span> <br>
+                                    <h6 class="mb-3"><span class="text-carevul">Nama Pasien : ${doctor.userName} <br> Keluhan : ${doctor.keluhan}</span> <br>
                                     ${countDown}</h6>
                                 </div>
                                 <!-- <div class="col-md d-flex justify-content-center align-items-center d-block">
